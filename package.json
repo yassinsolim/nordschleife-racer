@@ -1,0 +1,35 @@
+{
+  "name": "nordschleife-racer",
+  "version": "1.0.0",
+  "description": "Browser arcade-sim racing engine (TypeScript + Three.js): custom vehicle physics, procedural Nordschleife track, real-time Supabase multiplayer, ghost replays, and a global leaderboard. Engine source behind yassin.app.",
+  "homepage": "https://yassin.app",
+  "author": "Yassin Soliman (https://yassin.app)",
+  "license": "MIT",
+  "keywords": [
+    "threejs",
+    "webgl",
+    "typescript",
+    "racing-game",
+    "vehicle-physics",
+    "web-audio",
+    "supabase",
+    "multiplayer",
+    "nurburgring"
+  ],
+  "//": "Source + showcase repo — see README 'About this repository'. Runtime engine deps and the author's own tooling scripts are listed below; the playable build (with the host site, car meshes, and Supabase backend) lives at yassin.app.",
+  "scripts": {
+    "game:audit": "node scripts/game-audit.mjs",
+    "validate:race": "node scripts/run-regression-validation.js",
+    "security:check": "node scripts/security-check.mjs https://yassin.app",
+    "write:config": "node scripts/write-racing-config.js"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/three": "^0.160.0",
+    "playwright": "^1.40.0"
+  }
+}
