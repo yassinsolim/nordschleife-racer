@@ -143,7 +143,7 @@ My original work in this repository (all racing engine code, the procedural trac
 
 This game was originally developed inside a fork of [Henry Heffernan's portfolio](https://github.com/henryjeff/portfolio-website) (MIT); the inner desktop experience on the live site is [Dustin Brett's daedalOS](https://github.com/DustinBrett/daedalOS). **Neither is included or claimed here** — this repo is only the racing engine I authored.
 
-**Car 3D models** are third-party assets (Creative Commons, via Sketchfab), used on the live site and **not redistributed in this repo**. Vehicle performance values are tuned from publicly published manufacturer/press data, cited in [`CREDITS.md`](CREDITS.md). Libraries (Three.js, Supabase JS) are MIT-licensed by their authors.
+**Car 3D models** are third-party models from the [Sketchfab](https://sketchfab.com) community, used under their respective Creative Commons licenses on the live site and **not redistributed in this repo**. Vehicle performance values are tuned from publicly published manufacturer/press data, cited in [`CREDITS.md`](CREDITS.md). Libraries (Three.js, Supabase JS) are MIT-licensed by their authors.
 
 ---
 

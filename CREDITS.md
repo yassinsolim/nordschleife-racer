@@ -22,14 +22,12 @@ Neither is included here, and no authorship over them is claimed.
 
 ## Car 3D models (third-party — NOT redistributed in this repo)
 
-The car meshes are third-party assets (Creative Commons, via Sketchfab), loaded by
-the live site at runtime and **not committed to this repository**. If you redistribute
-them anywhere, CC-BY requires crediting each original author.
+The car meshes are third-party 3D models from the **[Sketchfab](https://sketchfab.com)**
+community, used under their respective Creative Commons licenses. They are loaded by
+the live site at runtime and are **not committed to this repository** — this repo
+ships only my own code.
 
-> TODO (Yassin): fill in the Sketchfab author + URL + license for each model on the
-> live site's CREDITS. Cars in the roster: Mercedes-AMG One, Mercedes-AMG GT63 S
-> Edition One, BMW F90 M5 Competition, BMW M8 Competition Coupe, Mercedes-AMG C63 S
-> Coupe, Mercedes-AMG C63 507, BMW E92 M3, BMW F82 M4, Toyota Crown Platinum.
+Credit and thanks to the Sketchfab artists who created the original vehicle models.
 
 ## Vehicle performance reference sources (tuning inputs, not imported assets)
 
